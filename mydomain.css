@@ -1,0 +1,13 @@
+
+body {font-family:"Times New Roman", Times, serif;
+    color:black;
+    font-size: 15px;
+    }
+
+h1 {
+display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#domains{font-size: 16px;}
