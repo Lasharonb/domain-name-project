@@ -4,8 +4,19 @@
   
     //creating a sentence (the excuse)
     
-    for(var i = 0; i<pronoun.length;i++)
-     for(var j = 0; j<adj.length;j++)
-      for(var k = 0; k<noun.length;k++)
+    for(var p = 0; p<pronoun.length;p++){
+     
+     for(var a = 0; a<adj.length;a++){
       
-       document.querySelector("#domains").innerHTML += '<li>'+pronoun[i] + adj[i] + noun[i]+'.com</li>'; 
+      for(var n = 0; n<noun.length;n++){
+       
+       document.getElementById("domains").innerHTML += '<li>'+pronoun[p] + adj[a] + noun[n]+'.com</li>'; 
+      
+       
+      }
+     
+      
+     }
+    
+     
+    }
